@@ -31,7 +31,7 @@ Test the C Program for the desired output.
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <sys/wait.h>  // ✅ Required for wait()
+#include <sys/wait.h>  // Required for wait()
 
 int main() {
     pid_t pid = fork();
