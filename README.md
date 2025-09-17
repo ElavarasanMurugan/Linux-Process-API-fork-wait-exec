@@ -50,7 +50,7 @@ int main() {
     } else {
         // Parent process
         printf("I am parent, my PID is %d\n", getpid());
-        wait(NULL);  // ✅ Waits for child to terminate
+        wait(NULL);  //  Waits for child to terminate
         printf("Child process has terminated.\n");
     }
 
